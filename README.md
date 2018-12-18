@@ -4,27 +4,41 @@ To-DO-JSP é um gerenciador de tarefas simples desenvolvido usando JSP.
 
 ## Pré-Requisitos
 
-[PostgreSQL](https://www.postgresql.org/)
+* [PostgreSQL](https://www.postgresql.org/)
 
 ## Instalação
 
 1. Clone este repositório
 
-2. Crie um banco de dados chamado 'todo'
+2. Crie um banco PostgreSQL
 
 3. Execute o script [db.sql](_files/db.sql)
 
-4. Execute o projeto
+4. Edite o arquivo `[ConnectionFactory](src/br/com/todo/utils/ConnectionFactory.java)` conforme suas configurações
+
+```java
+public static Connection getConnection() throws SQLException, Exception {
+        try {
+            Class.forName("org.postgresql.Driver");
+
+            return DriverManager.getConnection("jdbc:postgresql://localhost:5432/{NOME_DO_BANCO}","{USUARIO}","{SENHA}");
+        } catch (Exception ex) {
+            throw new Exception(ex.getMessage());
+        }
+}
+```
+
+5. Execute o projeto
 
 ## Tencologias Usadas
 
-- [x] Java
-- [x] JSP
-- [x] SQL
-- [x] JS
-- [x] jQuery
-- [x] CSS
-- [x] Bootstrap
+* Java
+* JSP
+* SQL
+* JS
+* jQuery
+* CSS
+* Bootstrap
 
 ## Funcionalidades
 
