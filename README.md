@@ -45,8 +45,8 @@ To-DO-JSP é um gerenciador de tarefas simples desenvolvido usando JSP.
 
 ## Para Fazer
 
-- [] Validar cadastro com emails repetidos
-- [] Visualização e Edição de Perfil
-- [] Buscar Tarefas por Nome
-- [] Ajustes nas mensagens de erro
-- [] Outros ajustes...
+- [ ] Validar cadastro com emails repetidos
+- [ ] Visualização e Edição de Perfil
+- [ ] Buscar Tarefas por Nome
+- [ ] Ajustes nas mensagens de erro
+- [ ] Outros ajustes...
