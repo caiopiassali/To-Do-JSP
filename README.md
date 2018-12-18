@@ -1,15 +1,12 @@
 # To-Do-JSP
------------
 
 To-DO-JSP é um gerenciador de tarefas simples desenvolvido usando JSP.
 
 ## Pré-Requisitos
------------------
 
 [PostgreSQL](https://www.postgresql.org/)
 
 ## Instalação
--------------
 
 1. Clone este repositório
 
@@ -17,10 +14,9 @@ To-DO-JSP é um gerenciador de tarefas simples desenvolvido usando JSP.
 
 3. Execute o script [db.sql](_files/db.sql)
 
-4. Execute o projeto com sua IDE
+4. Execute o projeto
 
 ## Tencologias Usadas
----------------------
 
 - [x] Java
 - [x] JSP
@@ -31,7 +27,6 @@ To-DO-JSP é um gerenciador de tarefas simples desenvolvido usando JSP.
 - [x] Bootstrap
 
 ## Funcionalidades
-------------------
 
 - [x] Cadastro
 - [x] Login
@@ -49,10 +44,9 @@ To-DO-JSP é um gerenciador de tarefas simples desenvolvido usando JSP.
 - [x] Mensagens de Confirmação
 
 ## Para Fazer
--------------
 
-- [x] Validar cadastro com emails repetidos
-- [x] Visualização e Edição de Perfil
-- [x] Buscar Tarefas por Nome
-- [x] Ajustes nas mensagens de erro
-- [x] Outros ajustes...
+- [] Validar cadastro com emails repetidos
+- [] Visualização e Edição de Perfil
+- [] Buscar Tarefas por Nome
+- [] Ajustes nas mensagens de erro
+- [] Outros ajustes...
