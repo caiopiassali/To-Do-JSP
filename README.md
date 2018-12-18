@@ -12,9 +12,9 @@ To-DO-JSP é um gerenciador de tarefas simples desenvolvido usando JSP.
 
 2. Crie um banco PostgreSQL
 
-3. Execute o script [db.sql](_files/db.sql)
+3. Execute o script [`db.sql`](_files/db.sql)
 
-4. Edite o arquivo `[ConnectionFactory](src/br/com/todo/utils/ConnectionFactory.java)` conforme suas configurações
+4. Edite o arquivo [`ConnectionFactory.java`](src/br/com/todo/utils/ConnectionFactory.java) conforme suas configurações
 
 ```java
 public static Connection getConnection() throws SQLException, Exception {
