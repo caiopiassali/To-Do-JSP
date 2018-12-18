@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,600,300,200');
+
+a:hover {
+    text-decoration: none;
+}
+
+.hover-title:hover {
+    cursor: pointer;
+}
+
+.hover-cell:hover {
+    background-color: #bee5eb !important;
+}
+
+.todo-title {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
