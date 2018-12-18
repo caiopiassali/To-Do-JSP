@@ -21,7 +21,7 @@ public static Connection getConnection() throws SQLException, Exception {
         try {
             Class.forName("org.postgresql.Driver");
 
-            return DriverManager.getConnection("jdbc:postgresql://localhost:5432/{NOME_DO_BANCO}","{USUARIO}","{SENHA}");
+            return DriverManager.getConnection("jdbc:postgresql://localhost:{PORTA_POSTGRES}/{NOME_DO_BANCO}","{USUARIO}","{SENHA}");
         } catch (Exception ex) {
             throw new Exception(ex.getMessage());
         }
