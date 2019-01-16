@@ -6,12 +6,12 @@ To-DO-JSP é um gerenciador de tarefas simples desenvolvido usando JSP.
 
 * Java
 * JSP
-* SQL
 * JS
-* jQuery
+* HTML
 * CSS
+* jQuery
 * Bootstrap
-* PostgreSQL
+* SQL
 
 ## Funcionalidades
 
